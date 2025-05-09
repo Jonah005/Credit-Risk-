@@ -5,17 +5,29 @@ This project focuses on assessing credit risk using the German Credit dataset (`
 ## 📁 Project Structure
 
 nnfl/
+
 ├── output/ # Folder containing generated plots and figures
+
 ├── ann.py # Script for training ANN
+
 ├── ann_model.h5 # Saved ANN model
+
 ├── comparison.py # Classifier comparison with traditional models
+
 ├── evaluation.py # Model evaluation metrics
+
 ├── german.data # Raw dataset (original format)
+
 ├── german.data-numeric # Preprocessed numeric version of dataset
+
 ├── german_credit_data.csv # CSV-formatted version of dataset
+
 ├── main.py # Main execution file
+
 ├── model.py # ANN model architecture
+
 ├── preprocessing.py # Preprocessing pipeline (normalization, SMOTE, etc.)
+
 ├── visualization.py # Code for visualizing EDA and evaluation results
 
 
